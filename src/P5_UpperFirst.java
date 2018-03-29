@@ -1,13 +1,17 @@
 /*
 	ISYS 320
-	Name(s):
-	Date: 
+	Name(s): Dave Rapp
+	Date: 3-27-18
 */
 
 public class P5_UpperFirst {
 
 	public static void main(String[] args) {
+		String superRainbow = "super rainbow";
+		String Lebron = "Lebron.James";
 
+		System.out.println(superRainbow.substring(0, 5).toUpperCase());
+		System.out.println(Lebron.substring(0, 6).toUpperCase());
 	}
 
 }
