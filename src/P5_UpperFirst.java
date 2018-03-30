@@ -10,8 +10,8 @@ public class P5_UpperFirst {
 		String superRainbow = "super rainbow";
 		String Lebron = "Lebron.James";
 
-		System.out.println(superRainbow.substring(0, 5).toUpperCase());
-		System.out.println(Lebron.substring(0, 6).toUpperCase());
+		System.out.println(superRainbow.substring(0, 5).toUpperCase() + superRainbow.substring(5, 13));
+		System.out.println(Lebron.substring(0, 6).toUpperCase() + Lebron.substring(6, 12));
 	}
 
 }
